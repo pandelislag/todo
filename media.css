@@ -1,0 +1,218 @@
+@media screen and (max-width: 687px) {
+  .container .todoapp {
+    width: 32rem;
+  }
+  .todoapp h2 {
+    font-size: 2rem;
+  }
+  .app {
+    padding: 1.2rem;
+  }
+  .inputBox {
+    width: 50%;
+    height: 3.5rem;
+    border-radius: 1.5rem;
+    margin-left: 3rem;
+  }
+  .app .btn {
+    width: 4.5rem;
+    height: 3rem;
+    border-radius: 0.8rem;
+    text-align: center;
+    margin-left: 0.5rem;
+  }
+
+  .list li::before {
+    content: "";
+    position: absolute;
+    background-image: url("assets/circle.png");
+    background-position: center;
+    background-size: cover;
+    width: 0.8rem;
+    height: 0.8rem;
+    top: 0.2rem;
+    filter: grayscale(100%);
+    display: block;
+    left: -2rem;
+    background-color: rgb(161, 49, 49);
+    filter: #fff;
+  }
+
+  li {
+    display: flex;
+    justify-content: space-between;
+    width: 5rem;
+    margin-bottom: 0.8rem;
+    margin-left: 1rem;
+  }
+  li span {
+    background-color: rgb(99, 99, 200);
+    height: 0.8rem;
+    width: 0.8rem;
+    cursor: pointer;
+    border-radius: 1rem;
+    margin: 0.5rem;
+    color: #fff;
+    position: relative;
+  }
+  .spany {
+    display: flex;
+    width: 0.8rem;
+    flex-direction: column;
+    height: 0.8rem;
+    font-size: 0.75rem;
+    position: absolute;
+    margin-left: 7.8rem;
+    margin-top: 0.2rem;
+  }
+
+  .list-paragraph {
+    display: flex;
+    justify-content: center;
+    width: 55%;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    color: rgb(187, 129, 129);
+  }
+
+  .list li.check {
+    color: #555;
+    text-decoration: line-through;
+  }
+
+  .list .check::before {
+    background-image: url("assets/pngwing.com.png");
+  }
+
+  .btn-family {
+    padding: 0.8rem;
+    border-radius: 0.8rem;
+    margin: 0.7rem;
+  }
+  .btn-business {
+    padding: 0.8rem;
+    border-radius: 0.8rem;
+    margin: 0.7rem;
+  }
+  .task-columns {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: center;
+    gap: 6rem;
+    width: 100%;
+  }
+  .task-columns .family-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 20%;
+    height: 50%;
+  }
+
+  .family-column h4 {
+    font-size: 0.75rem;
+    width: 60%;
+  }
+
+  .task-columns .business-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    height: 50%;
+  }
+  .business-column h4 {
+    font-size: 0.75rem;
+    width: 55%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .container .todoapp {
+    width: 40rem;
+  }
+  .todoapp h2 {
+    font-size: 1.6rem;
+  }
+  .app {
+    padding: 1.2rem;
+  }
+  .inputBox {
+    width: 48%;
+    height: 3rem;
+    border-radius: 1rem;
+    margin-right: 1rem;
+  }
+  .app .btn {
+    width: 3.5rem;
+    height: 2.8rem;
+    border-radius: 0.8rem;
+    text-align: center;
+    margin-left: 0.5rem;
+    margin-right: 5rem;
+  }
+
+  .list li::before {
+    width: 0.7rem;
+    height: 0.7rem;
+    top: 0.2rem;
+    left: -1.2rem;
+  }
+
+  li {
+    width: 3.5rem;
+    margin-bottom: 0.8rem;
+    margin-left: -0.1rem;
+  }
+  li span {
+    background-color: rgb(99, 99, 200);
+    height: 0.7rem;
+    width: 0.7rem;
+    margin: 0.5rem;
+  }
+  .spany {
+    width: 0.8rem;
+    height: 0.8rem;
+    font-size: 0.65rem;
+    margin-left: 5rem;
+    margin-top: 0.2rem;
+  }
+
+  .list-paragraph {
+    width: 55%;
+    font-size: 0.8rem;
+    margin-bottom: 0.8rem;
+    margin-top: 1rem;
+  }
+  .btn-family {
+    padding: 0.5rem;
+    border-radius: 0.6rem;
+    margin: 0.5rem;
+  }
+  .btn-business {
+    padding: 0.5rem;
+    border-radius: 0.6rem;
+    margin: 0.5rem;
+  }
+  .task-columns .family-column {
+    width: 20%;
+  }
+
+  .family-column h4 {
+    font-size: 0.7rem;
+    width: 100%;
+  }
+
+  .task-columns .business-column {
+    width: 35%;
+  }
+  .business-column h4 {
+    font-size: 0.7rem;
+    width: 100%;
+  }
+}

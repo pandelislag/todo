@@ -1,0 +1,198 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: linear-gradient(135deg, #f2b86d, #f95205);
+}
+
+li {
+  list-style: none;
+  position: relative;
+}
+/* / Container / */
+.container {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container .todoapp {
+  width: 50rem;
+  height: 42rem;
+  align-items: center;
+  text-align: center;
+  border-radius: 2rem;
+}
+.todoapp h2 {
+  font-size: 2.5rem;
+}
+
+.app {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 0.5rem;
+  padding: 2.5rem;
+  border-radius: 2rem;
+}
+
+.inputBox {
+  width: 60%;
+  height: 5rem;
+  border-radius: 2rem;
+  margin-left: 8rem;
+}
+
+.app .btn {
+  width: 7rem;
+  height: 4rem;
+  border-radius: 1.2rem;
+  background-color: #c7baa7;
+  color: #000;
+  cursor: pointer;
+  text-align: center;
+  margin-left: 0.2rem;
+}
+.list {
+  margin-right: 0.2rem;
+  margin-top: 1rem;
+}
+
+.list li::before {
+  content: "";
+  position: absolute;
+  background-image: url("assets/circle.png");
+  background-position: center;
+  background-size: cover;
+  width: 1.15rem;
+  height: 1.15rem;
+  top: 0.2rem;
+  filter: grayscale(100%);
+  display: block;
+  left: -3rem;
+  background-color: rgb(161, 49, 49);
+  filter: #fff;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  width: 11rem;
+  margin-bottom: 1rem;
+  margin-left: 2rem;
+}
+
+li span {
+  background-color: rgb(99, 99, 200);
+  height: 1.15rem;
+  width: 1.15rem;
+  cursor: pointer;
+  border-radius: 1rem;
+  margin: 0.5rem;
+  color: #fff;
+}
+
+.list-paragraph {
+  display: flex;
+  justify-content: center;
+  width: 85%;
+  font-size: 2rem;
+  margin-bottom: 1.6rem;
+  margin-top: 1.6rem;
+  color: rgb(187, 129, 129);
+}
+
+.list li.check {
+  color: #555;
+  text-decoration: line-through;
+}
+
+.list .check::before {
+  background-image: url("assets/pngwing.com.png");
+}
+.message {
+  color: red;
+  display: flex;
+  width: 100%;
+  height: 2rem;
+  align-self: center;
+  justify-content: center;
+}
+.category-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.btn-family {
+  padding: 1rem;
+  border-radius: 1.2rem;
+  outline: none;
+  background-color: #c7baa7;
+  color: #000;
+  cursor: pointer;
+  text-align: center;
+  margin: 1rem;
+}
+.btn-business {
+  padding: 1rem;
+  border-radius: 1.2rem;
+  outline: none;
+  background-color: #c7baa7;
+  color: #000;
+  cursor: pointer;
+  text-align: center;
+  margin: 1rem;
+}
+
+.task-columns {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  justify-content: center;
+  gap: 8rem;
+  width: 100%;
+}
+.task-columns .family-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 30%;
+  height: 50%;
+}
+
+.family-column h4 {
+  display: flex;
+  align-items: center;
+  align-self: left;
+  justify-content: center;
+  font-size: 1.2rem;
+  background-color: #978b7d;
+  position: relative;
+  width: 45%;
+}
+
+.task-columns .business-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 30%;
+  height: 50%;
+}
+.business-column h4 {
+  display: flex;
+  align-items: center;
+  align-self: left;
+  justify-content: center;
+  font-size: 1.2rem;
+  background-color: #978b7d;
+  position: relative;
+  width: 45%;
+}

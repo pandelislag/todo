@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="media.css" />
+    <title>ToDo App</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="todoapp">
+        <h2>Welcome to My List</h2>
+        <h3><span class="date"></span></h3>
+        <div class="app">
+          <input
+            type="text"
+            class="inputBox"
+            placeholder="Write your Program"
+          />
+          <button class="btn">Add Task</button>
+        </div>
+
+        <div class="category-buttons">
+          <button class="btn-category btn-family">Family</button>
+          <button class="btn-category btn-business">Business</button>
+        </div>
+
+        <div class="message"></div>
+
+        <div class="task-columns">
+          <div class="family-column">
+            <h4>Family Tasks</h4>
+            <ul class="list family-list"></ul>
+          </div>
+          <div class="business-column">
+            <h4>Business Tasks</h4>
+            <ul class="list business-list"></ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
