@@ -36,11 +36,11 @@ This is my first try to create something that includes javascript. The challenge
 
 ### What I learned
 
-This project helps me improve my coding skills by building app. I learn how to wrire a function, global scope,  local scope, variables, how to use local storage and much more.
+This project helps me improve my coding skills by building this app. I learn how to wrire a function, global scope,  local scope, variables and how to use local storage and much more.
 
 ### Continued development
 
-In future projects i would like to use more consepts in vannilla Javascript and try out to combine more concepts. Also i want to learn some libraries like React Js in the future. 
+In future projects i would like to use more consepts in vannilla Javascript and try out to combine more concepts. Also my purpose is to learn some libraries like React Js. 
 
 
 ### Useful resources
